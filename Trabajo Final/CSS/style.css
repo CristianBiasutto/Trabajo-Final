@@ -1,0 +1,349 @@
+/* ----------------------------general---------------------------- */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+h5{
+    color: #1B4F9D;
+}
+.seccion1 .seccion2, .seccion3, .seccion4, .seccion5
+{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr;
+}
+.seccion1 .seccion2 div, .seccion3 div, .seccion4 div, .seccion5 div
+{
+    padding: 8em;
+    justify-items: stretch;
+}
+
+/* ----------------------------seccion 1---------------------------- */
+.seccion1{
+    height: 625px;
+    left: -9px;
+    top: -109px;
+    background: linear-gradient(270deg, rgba(27, 79, 157, 0.4) 0%, rgba(28, 28, 27, 0.2) 52.08%, rgba(28, 28, 27, 0.4) 100%), #1B4F9D;
+}
+.seccion1 div{
+    width: 1249px;
+    height: 100px;
+    left: 90px;
+    top: 142px;
+}
+#offerings{
+    position: absolute;
+    width: 177px;
+    height: 120px;
+    left: 101px;
+    top: 142px;
+
+    font-style: normal;
+    font-weight: 200;
+    font-size: 40px;
+    line-height: 60px;
+
+    color: #FFFFFF;
+}
+#diseño{
+    position: absolute;
+    left: 6.71%;
+    right: 1.71%;
+    top: 30.36%;
+    bottom: 11.36%;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 67px;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+#ux{
+    position: absolute;
+    padding-right: 50px;
+    width: 613px;
+    height: 68px;
+    left: 724px;
+    top: 383px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 67px;
+    text-align: right;
+    color: #FFFFFF;
+}
+.seccion1 p{
+    position: absolute;
+    padding-right: 50px;
+    width: 765px;
+    height: 190px;
+    left: 574px;
+    top: 477px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 157.19%;
+
+    text-align: right;
+    color: #FFFFFF;
+}
+
+/* ----------------------------seccion 2---------------------------- */
+.seccion2 h1{
+    position: absolute;
+    width: 404px;
+    height: 120px;
+    left: 144px;
+    top: 675px;
+
+    font-style: normal;
+    font-weight: 300;
+    font-size: 39px;
+    line-height: 60px;
+
+    color: #1B4F9D;
+}
+.seccion2 p{
+    position: absolute;
+    width: 402px;
+    height: 349px;
+    left: 145px;
+    top: 767px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 168%;
+
+    letter-spacing: 0.015em;
+    color: #000000;
+}
+#img1{
+    background-image: url("/img/img1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: screen;
+    backdrop-filter: blur(4px);
+
+    position: absolute;
+    opacity: 80%;
+    width: 671px;
+    height: 101vh;
+    right: 0px;
+    top: 625px;
+}
+
+/* ----------------------------seccion 3---------------------------- */
+.seccion3{
+    position: absolute;
+    left: 0px;
+    top: 1264px;
+    margin-top: -13px;
+
+    background-blend-mode: screen;
+    background: linear-gradient(106.78deg, rgba(229, 47, 38, 0.3) 27.54%, rgba(229, 47, 38, 0) 94.21%), #1B4F9D;
+}
+.seccion3 div h1{
+    width: 374px;
+    height: 47px;
+    left: 931px;
+    top: 1564px;
+
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: right;
+    color: #FFFFFF;
+}
+.seccion3 div p{
+    width: 410px;
+    height: 313px;
+    left: 896px;
+    top: 1658px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 168%;
+
+    text-align: right;
+    letter-spacing: 0.015em;
+    color: #FFFFFF;
+}
+#img2{
+    background-image: url("/img/img2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;    
+    background-blend-mode: screen;
+    background-color: #1B4F9D;
+    backdrop-filter: blur(4px);
+}
+
+/* ----------------------------seccion 4---------------------------- */
+.seccion4{
+    position: absolute;
+    height: 100vh;
+    top: 1943px;
+    margin-top: -53px;
+}
+.seccion4 h1{
+    position: absolute;
+    width: 204.21px;
+    height: 60px;
+    left: 130px;
+    top: 70px;
+
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 60px;
+    color: #1B4F9D;
+}
+.seccion4 p{
+    position: absolute;
+    width: 439px;
+    height: 476px;
+    left: 130px;
+    top: 135px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 168%;
+    letter-spacing: 0.015em;
+    color: #000000;
+}
+#img3{
+    background-image: url("/img/img3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: screen;
+    background-color: hsla(0, 0%, 100%, 0.37);
+    backdrop-filter: blur(4px);
+    height: 725px;
+}
+
+/* ----------------------------carrousel---------------------------- */
+#carouselExampleControls{
+    position: absolute;
+    width: 100%;
+    height: 530px;
+    left: 0px;
+    top: 2615px;
+}
+#carouselExampleControls ul{
+    list-style: none;
+    text-align: center;
+}
+.carousel-caption{
+bottom: 10rem;
+z-index: 10;
+}
+.carousel-item{
+height: 32rem;
+}
+
+/* ----------------------------video---------------------------- */
+.video{
+    position: absolute;
+    width: 100%;
+    height: 530px;
+    left: 0px;
+    top: 3127px;
+
+    background: linear-gradient(270deg, rgba(27, 79, 157, 0.4) 0%, rgba(28, 28, 27, 0.2) 52.08%, rgba(28, 28, 27, 0.4) 100%), #1B4F9D;
+}
+.video iframe{
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+
+/* ----------------------------seccion 5---------------------------- */
+.seccion5{
+    position: absolute;
+    width: 100%;
+    height: 657px;
+    left: 0px;
+    top: 3657px;
+
+    background: linear-gradient(106.78deg, rgba(229, 47, 38, 0.3) 27.54%, rgba(229, 47, 38, 0) 94.21%), #1B4F9D;
+}
+.seccion5 h1{
+    position: absolute;
+    top: 0240px;
+}
+.seccion5 button{
+    position: absolute;
+    top: 385px;
+}
+#img4{
+    background-image: url("/img/img4.png");    
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: 50% 3.5cm; 
+}
+
+/* ----------------------------footer---------------------------- */
+footer{
+    position: absolute;
+    top: 4327px;
+}
+#logo{
+    position: relative;
+    width: 20%;
+    top: 50px;
+    left: 200px;
+}
+#nombre{
+    position: absolute;
+    background-size: cover;
+    width: 90%;
+    top: 0px;
+    right: 175px;
+}
+footer ul{
+    list-style:none;
+}
+#columna1{
+    position: absolute;
+    top: 65px;
+    right: 0px;
+}
+#columna2{
+    position: absolute;
+    top: 65px;
+    right: -380px;
+}
+.icon {
+    position: relative;
+    display: flex;
+    margin: 50px;
+    left: 50%;
+    top: 100px;
+}
+.icon p{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.links a i {
+    font-size: 3rem;
+}
